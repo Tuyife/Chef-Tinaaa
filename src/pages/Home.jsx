@@ -20,7 +20,7 @@ import { api } from '../lib/api.js';
 
 const HERO_STATS = [
   { value: '500+', label: 'Events Served' },
-  { value: '8+', label: 'Years Experience' },
+  { value: '20+', label: 'Years Experience' },
   { value: '98%', label: 'Happy Clients' },
 ];
 
