@@ -76,7 +76,7 @@ export default function Footer() {
               <li><Phone size={15} aria-hidden="true" /><span>+234 806 518 6605</span></li>
               <li><Phone size={15} aria-hidden="true" /><span>+234 905 482 0983</span></li>
               <li><Mail size={15} aria-hidden="true" /><span>glorycateringservices20@gmail.com</span></li>
-              <li><MapPin size={15} aria-hidden="true" /><span>Lagos, Nigeria</span></li>
+              <li><MapPin size={15} aria-hidden="true" /><span>Osun, Nigeria</span></li>
             </ul>
             <Link to="/contact" className="btn btn--primary btn--sm">
               Make an Enquiry <ArrowUpRight size={15} />

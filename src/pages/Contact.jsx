@@ -59,7 +59,7 @@ export default function Contact() {
                 </a>
                 <div className="channel">
                   <span className="card-icon small"><MapPin size={18} /></span>
-                  <div><strong>Location</strong><span>Lagos, Nigeria</span></div>
+                  <div><strong>Location</strong><span>Osun, Nigeria</span></div>
                 </div>
                 <div className="channel">
                   <span className="card-icon small"><Clock3 size={18} /></span>
