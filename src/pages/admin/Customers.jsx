@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Search, Ban, UserCheck } from 'lucide-react';
+import { Search, Ban, UserCheck, Settings } from 'lucide-react';
 import { api, formatDate } from '../../lib/api.js';
 
 export default function Customers() {
@@ -73,6 +73,7 @@ export default function Customers() {
                     <td><strong>{c.name}</strong></td>
                     <td>{c.email}</td>
                     <td>{c.phone || '—'}</td>
+                    <td>{c.accountNumber || '—'}</td>
                     <td>{formatDate(c.createdAt)}</td>
                     <td>
                       <span className={`badge ${c.active ? 'badge--active' : 'badge--inactive'}`}>
