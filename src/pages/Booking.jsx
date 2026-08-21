@@ -36,8 +36,8 @@ export default function Booking() {
             <div className="card side-card side-card--accent">
               <h3>Need Help?</h3>
               <p>Call or WhatsApp us anytime and we’ll guide you through the process.</p>
-              <a href="tel:+2348065186605" className="btn btn--primary btn--sm btn--block">
-                <Phone size={15} /> +234 806 518 6605
+              <a href="tel:+2349054820983" className="btn btn--primary btn--sm btn--block">
+                <Phone size={15} /> +234 905 482 0983
               </a>
             </div>
           </Reveal>

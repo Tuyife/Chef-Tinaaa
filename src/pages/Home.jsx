@@ -286,10 +286,6 @@ export default function Home() {
             </Reveal>
             <Reveal delay={80}>
               <div className="contact-channels">
-                <a href="tel:+2348065186605" className="channel">
-                  <span className="card-icon small"><Phone size={18} /></span>
-                  <div><strong>Call or WhatsApp</strong><span>+234 806 518 6605</span></div>
-                </a>
                 <a href="tel:+2349054820983" className="channel">
                   <span className="card-icon small"><Phone size={18} /></span>
                   <div><strong>Call or WhatsApp</strong><span>+234 905 482 0983</span></div>
