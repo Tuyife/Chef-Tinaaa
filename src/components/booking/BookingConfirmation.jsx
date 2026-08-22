@@ -57,24 +57,18 @@ export default function BookingConfirmation({ booking, user }) {
       {payment?.enabled && (
         <div className="bw-confirm-details">
           <span className="bw-summary-section-label"><Landmark size={15} /> How to Pay</span>
-          {payment.bankName && (
-            <div className="bw-confirm-row">
-              <span className="card-icon small"><Landmark size={16} /></span>
-              <div><span>Bank</span><strong>{payment.bankName}</strong></div>
-            </div>
-          )}
-          {payment.accountName && (
-            <div className="bw-confirm-row">
-              <span className="card-icon small"><Landmark size={16} /></span>
-              <div><span>Account Name</span><strong>{payment.accountName}</strong></div>
-            </div>
-          )}
-          {payment.accountNumber && (
-            <div className="bw-confirm-row">
-              <span className="card-icon small"><Landmark size={16} /></span>
-              <div><span>Account Number</span><strong>{payment.accountNumber}</strong></div>
-            </div>
-          )}
+          <div className="bw-confirm-row">
+            <span className="card-icon small"><Landmark size={16} /></span>
+            <div><span>Bank</span><strong>Opay</strong></div>
+          </div>
+          <div className="bw-confirm-row">
+            <span className="card-icon small"><Landmark size={16} /></span>
+            <div><span>Account Name</span><strong>ADEOYE CHRISTIANAH BOLUWATIFE</strong></div>
+          </div>
+          <div className="bw-confirm-row">
+            <span className="card-icon small"><Landmark size={16} /></span>
+            <div><span>Account Number</span><strong>9054820983</strong></div>
+          </div>
           {payment.instructions && <p className="bw-confirm-hint">{payment.instructions}</p>}
         </div>
       )}
