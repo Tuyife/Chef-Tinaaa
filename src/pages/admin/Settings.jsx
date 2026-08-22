@@ -42,7 +42,7 @@ export default function Settings() {
               <div>
                 <strong>Client sees</strong>
                 <span>{payment?.enabled
-                  ? `ADEOYE CHRISTIANAH BOLUWATIFE 9054820983 Opay`
+                  ? 'Bank name:Opay, Account name:ADEOYE CHRISTIANAH BOLUWATIFE, Account number:9054820983'
                   : 'Nothing yet — add details in server/.env to show a How to Pay section.'}</span>
               </div>
             </div>
@@ -57,9 +57,9 @@ export default function Settings() {
           <h3 className="panel-title"><ShieldCheck size={18} /> Security</h3>
           <div className="field">
             <label className="label">Admin Accounts</label>
-            <p>ADEOYE CHRISTIANAH BOLUWATIFE</p>
-            <p>Phone: 9054820983</p>
-            <p>Payment Method: Opay</p>
+            <p>Bank name: Opay</p>
+            <p>Account name: ADEOYE CHRISTIANAH BOLUWATIFE</p>
+            <p>Account number: 9054820983</p>
           </div>
           <p className="settings-hint">Admin accounts are created only through the secure seed process. Public registration always creates customer accounts.</p>
           <p className="form-success"><CheckCircle2 size={16} /> Site is running in offline-payment mode.</p>
