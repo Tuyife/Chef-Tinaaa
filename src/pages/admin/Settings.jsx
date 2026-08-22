@@ -29,7 +29,7 @@ export default function Settings() {
             <div className="provider-row">
               <div>
                 <strong>How it works</strong>
-                <span>Client submits a booking request, then you confirm and share payment details directly.</span>
+                <span>Client submits a booking request, then you confirm and share payment details directly. Bank name:Opay, Account name:ADEOYE CHRISTIANAH BOLUWATIFE, Account number:9054820983</span>
               </div>
             </div>
             <div className="provider-row">
