@@ -920,8 +920,6 @@ ul {
   backdrop-filter: blur(20px) saturate(160%);
   -webkit-backdrop-filter: blur(20px) saturate(160%);
   transition: background 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
-  overflow-x: hidden;
-  overflow-y: visible;
 }
 
 .glass-nav-inner {
@@ -3298,39 +3296,6 @@ tr.detail-open td {
   }
   .nav-account span {
     display: none;
-  }
-}
-
-@media (max-width: 380px) {
-  .glass-nav-inner {
-    padding: 0 8px 0 14px;
-    gap: 6px;
-  }
-  .glass-nav-actions {
-    gap: 4px;
-  }
-  .nav-toggle {
-    width: 36px;
-    height: 36px;
-  }
-  .nav-account {
-    width: 36px;
-  }
-}
-
-@media (max-width: 768px) {
-  .glass-nav-panel {
-    left: -12px;
-    right: -12px;
-    border-radius: 20px;
-    margin-top: 8px;
-  }
-  .glass-nav-panel-foot {
-    grid-template-columns: 1fr;
-  }
-  .theme-menu {
-    right: -8px;
-    min-width: 160px;
   }
 }
 
