@@ -3277,6 +3277,7 @@ tr.detail-open td {
   }
   .glass-nav-inner {
     padding-left: 18px;
+    min-width: 0;
   }
   .brand-name {
     font-size: 17px;
