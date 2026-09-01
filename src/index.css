@@ -3315,10 +3315,22 @@ tr.detail-open td {
   }
   .nav-account {
     width: 36px;
-    height: 36px;
   }
-  .site-header {
-    width: calc(100% - 16px);
+}
+
+@media (max-width: 768px) {
+  .glass-nav-panel {
+    left: -12px;
+    right: -12px;
+    border-radius: 20px;
+    margin-top: 8px;
+  }
+  .glass-nav-panel-foot {
+    grid-template-columns: 1fr;
+  }
+  .theme-menu {
+    right: -8px;
+    min-width: 160px;
   }
 }
 
