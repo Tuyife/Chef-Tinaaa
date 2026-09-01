@@ -1028,17 +1028,10 @@ ul {
 .glass-nav-links a.active {
   color: var(--nav-active-text);
   font-weight: 700;
-  background: var(--nav-active-bg);
-  padding: 12px 24px;
-  box-shadow: 0 8px 22px -8px rgba(200, 240, 0, 0.6);
 }
 
 .glass-nav-links a.active svg {
   color: var(--nav-active-icon);
-}
-
-.glass-nav-indicator {
-  display: none;
 }
 
 .glass-nav-actions {
